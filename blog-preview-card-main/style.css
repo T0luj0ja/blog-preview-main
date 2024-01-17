@@ -38,6 +38,7 @@ button{
     font-weight: 700;
     border: none;
     font-family: 'Figtree', sans-serif;
+    border-radius: 5px;
     
 }
 
@@ -46,7 +47,7 @@ button:hover{
     cursor: pointer;
     background-color: grey;
 
-  
+
 }
 button:active{
     background-color: grey;
@@ -61,6 +62,12 @@ button:active{
     background-color: white;
 }
 
+.heading:hover{
+    
+    cursor: pointer;
+    color: grey;
+}
+
 .subheading{
     margin-top: 0;
     font-weight: 600;
@@ -69,7 +76,12 @@ button:active{
 
 p{
     background-color: white;
+    
 
+}
+
+.text{
+    color: gray;
 }
 
 img{
